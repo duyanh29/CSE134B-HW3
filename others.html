@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Others - Anh's page</title>
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+  </head>
+
+  <body>
+
+      <!-- Header -->
+
+      <header class="header-1">
+
+          <h1 class="logo">
+              <a href="index.html">Anh's <br> Page</a>
+          </h1>
+
+          <h3 class="tagline">San Diego, CA</h3>
+
+          <nav class="nav-1">
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <!--
+                -->
+                  <li><a href="projects.html">Projects</a></li>
+                  <!--
+                -->
+                  <li><a href="experiences.html">Experiences</a></li>
+                  <!--
+                -->
+                  <li><a href="contact.html">Contact</a></li>
+                  <!--
+                -->
+                  <li><a href="wildlife.html">Wildlife</a></li>
+              </ul>
+          </nav>
+
+      </header>
+
+      <!-- Intro -->
+
+      <section class="row-alt">
+          <div class="lead container">
+
+              <h1>This page is for experiments of other tags that may not be used in the actual site</h1>
+
+              <p></p>
+
+          </div>
+      </section>
+
+      <!-- Main content -->
+
+      <section class="row">
+          <div class="grid">
+
+              <!-- Details -->
+
+              <section class="video">
+                  <h2>UCSD Promo Video</h2>
+                  <video controls height="393" width="700">
+                      <source src="videos/videoplayback.mp4" type="video/mp4" />
+                      <div class="error">Your browser does not support the video tag.</div>
+                  </video>
+              </section>
+              <section class="svg">
+                  <h2>Example of svg tag</h2>
+                  <svg width="400" height="180">
+                      <rect x="50" y="20" rx="20" ry="20" width="150" height="150" style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+                  </svg>
+              </section>
+
+
+
+
+              <section class="canvas">
+
+                  <h2>Example of canvas tag</h2>
+                  <canvas id="myCanvas">
+                      Your browser does not support the canvas tag.
+                  </canvas>
+
+                  <script>var canvas = document.getElementById("myCanvas");
+                      var ctx = canvas.getContext("2d");
+                      ctx.fillStyle = "#FF0000";
+                      ctx.fillRect(0, 0, 80, 80);</script>
+
+              </section>
+              <section class="code">
+                  <h2>Example of code tag and pre tag</h2>
+                  <code><pre>
+                      for(int i = 0; i < 5; i++)
+                      {
+                            System.out.println(i);
+                      }
+                  </pre></code>
+              </section>
+
+
+
+          </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer-1">
+
+      <small>&copy; This page is made by Anh </small>
+
+      <nav class="nav">
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <!--
+            -->
+              <li><a href="speakers.html">Speakers</a></li>
+              <!--
+            -->
+              <li><a href="schedule.html">Schedule</a></li>
+              <!--
+            -->
+              <li><a href="venue.html">Venue</a></li>
+              <!--
+            -->
+              <li><a href="register.html">Register</a></li>
+          </ul>
+      </nav>
+
+      </footer>
+
+  </body>
+</html>
