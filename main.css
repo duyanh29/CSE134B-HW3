@@ -229,7 +229,7 @@ p a {
   Home Page
 */
 section h5{
-    text-align: center
+    text-align: center;
 }
 .home {
   color: black;
@@ -348,6 +348,8 @@ table a {
 }
 .wl {
     text-align: left;
+    font-size: 22px;
+    color: darkblue;
 }
 
 .solution {
