@@ -1,0 +1,394 @@
+/* layout */
+body {
+  background: lightblue;
+  color: black; 
+  font: 400 16px/22px "Lato", "Open Sans", "Garamond", Helvetica, Arial, sans-serif;
+  line-height: 1;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.body-content
+{
+  margin: 0 auto;
+  width: 960px;
+    padding-left: 30px;
+  padding-right: 30px;
+}
+
+.body-content h5{
+    color: darkblue;
+  font-size: 20px;
+  font-weight: 400;
+    text-align: center;
+    text-transform: none;
+}
+
+.column1 {
+  width: 33.33%;
+}
+.column2 {
+    padding-left: 100px;
+  width: 66.66%;
+}
+
+.column1,
+.column2  {
+  display: inline-block;
+  vertical-align: top;
+    padding-left: 15px;
+  padding-right: 15px;
+}
+
+.same:before,
+.same:after {
+  content: "";
+  display: table;
+}
+.same:after {
+  clear: both;
+}
+.same {
+  clear: both;
+  *zoom: 1;
+}
+.body-w {   
+    min-width: 950px;
+  background: white;
+  padding: 60px 0 40px 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+details, figure,
+footer, header, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: circle;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  headers
+*/
+
+h1, h2, h3, h4 {
+  color: darkblue;
+}
+h1, h3, h4, h5, p {
+  margin-bottom: 22px;
+}
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+h3 {
+  font-size: 21px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 { /*Projects experiences wildlife index.html*/
+  color: darkblue;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/*
+  Links
+*/
+
+a {
+  color: darkgreen;
+  text-decoration: inherit;
+}
+a:hover {
+  color: darkblue;
+}
+p a {
+  border-bottom: 1px solid #dfe2e5;
+}
+.main-header a,
+.main-footer a {
+  color: black; /*footer header nav*/
+}
+.main-header a:hover,
+.main-footer a:hover {
+  color: darkblue;
+}
+
+/*
+  Buttons
+*/
+
+.btn {
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+.btn-contact {
+  border: 1px solid black;
+  background: lightgray;
+  padding: 10px 30px;
+  font-size: 14px;
+}
+.btn-contact:hover {
+  background: white;
+
+}
+.btn-home {
+  border: 1px solid black;
+  padding: 10px 30px;
+}
+.btn-home:hover {
+  background: #fff;
+  color: darkblue;
+}
+
+/*
+  main header
+*/
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 100;
+  letter-spacing: .5px;
+  line-height: 45px;
+  padding: 40px 0 20px 0;
+  text-transform: uppercase;
+}
+
+.main-nav {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+/*
+  main footer
+*/
+
+.main-footer {
+  color: black; 
+  font-size: 15px;
+  padding-bottom: 45px;
+  padding-top: 45px;
+}
+.main-footer b {
+  float: left;
+  font-weight: 400;
+}
+
+/*
+  Navigation
+*/
+
+.nav {
+  text-align: right;
+}
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+.nav li:last-child {
+  margin-right: 0;
+}
+
+/*
+  Home Page
+*/
+section h5{
+    text-align: center
+}
+.home {
+  color: black;
+  line-height: 45px;
+  padding: 25px 80px 65px 80px;
+  text-align: center;
+}
+.home h2 {
+  font-size: 35px;
+}
+.home p {
+  font-size: 25px;
+  font-weight: 100;
+}
+.intro a:hover h3 {
+  color: darkgreen;
+}
+.intro img {
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 25px;
+  max-width: 100%
+}
+
+/*
+  Projects
+*/
+summary{
+    
+    padding: 30px;
+    font-size: 20px;
+}
+.project {
+  margin-bottom: 44px;
+}
+.project-info {
+  border: 1px solid #dfe2e5;
+  border-radius: 10px;
+  margin-top: 85px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.project-info img {
+  border-radius: 100%;
+  height: 300px;
+  margin: -65px 0 25px 0;
+  vertical-align: top;
+}
+
+/*
+  Experiences
+*/
+
+table {
+  margin-bottom: 35px;
+  width: 100%;
+}
+table:last-child {
+  margin-bottom: 0;
+}
+
+th,
+td {
+  padding-bottom: 25px;
+  vertical-align: top;
+}
+th {
+  padding-right: 45px;
+  text-align: left;
+  width: 20%;
+}
+td {
+  width: 50%;
+}
+thead {
+  line-height: 35px;
+}
+thead th {
+  color: darkblue;
+  font-size: 25px;
+}
+tbody th {
+  color: lightslategray;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 25px;
+  text-transform: uppercase;
+}
+tbody td {
+  border-top: 1px solid #dfe2f6;
+  padding-top: 20px;
+}
+tbody td:first-of-type {
+  padding-right: 15px;
+}
+tbody td:last-of-type {
+  padding-left: 15px;
+}
+tbody td:only-of-type {
+  padding-left: 20px;
+  padding-right: 20px; /*content in the table*/
+}
+table a {
+  color: #888;
+}
+
+
+/*
+  Wildlife
+*/
+.wildlife-list{
+    padding-bottom: 15px;
+}
+.wildlife-problem {
+  margin-bottom: 35px;
+}
+.wl {
+    text-align: left;
+}
+
+.solution {
+  list-style: square;
+  margin: 0 0 22px 30px;
+}
+
+/*
+    Contact
+*/
+.info{
+    text-align: center;
+}
+.resume {
+    padding-left: 100px;
+}
+form legend{
+    padding-bottom: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+form p{
+    padding-top: 25px;
+}
+input,
+textarea {
+    font: 300 16px/22px "Lato", "Open Sans", "Garamond", Helvetica, Arial, sans-serif;
+    
+}
+.feedback label {
+  color: darkblue;
+  cursor: pointer;
+  font-weight: 400;
+}
+.feedback input,
+.feedback textarea {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+    width: 100%
+}
