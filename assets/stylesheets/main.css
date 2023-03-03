@@ -298,7 +298,7 @@ td {
 }
 th {
   padding-right: 45px;
-  text-align: left;
+  text-align: right;
   width: 20%;
 }
 td {
@@ -317,6 +317,9 @@ tbody th {
   font-weight: 400;
   padding-top: 25px;
   text-transform: uppercase;
+}
+tbody li {
+  margin-bottom: 15px;
 }
 tbody td {
   border-top: 1px solid #dfe2f6;
@@ -360,11 +363,14 @@ table a {
 /*
     Contact
 */
+#dialogD{
+  border: 3px;
+}
 .info{
     text-align: center;
 }
 .resume {
-    padding-left: 100px;
+    padding-left: 80px;
 }
 form legend{
     padding-bottom: 15px;
@@ -392,5 +398,5 @@ textarea {
   display: block;
   margin: 5px 0 27px 0;
   padding: 5px 8px;
-    width: 100%
+  width: 100%
 }

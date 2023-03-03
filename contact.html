@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+
     <title>Contact - Anh's page</title>
     <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+
   </head>
 
-  <body>
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-97MHB4TWDQ"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+      
+        gtag('config', 'G-97MHB4TWDQ');
+        </script>
+        <script src="main.js">
 
-      <!-- Header -->
+    </script>    
+  <body>
+    
 
       <header class="main-header body-content same">
 
@@ -34,49 +48,34 @@
 
       </header>
 
-      <!-- Lead -->
-
+      
       <section class="home body-content">
 
           <h1>Contact</h1>
 
-          <p>Leave your information below if you want to get in touch ~~</p>
 
+          <p>Leave your information below if you want to get in touch ~~</p>
+          
+         
       </section>
 
-      <!-- Main content -->
-
+            
       <section class="body-w">
           <div class="body-content">
 
-              <!-- Details -->
-              <!--
-
-    Registration form
-
-
-    -->
+ 
               <form class="column1" action="#" method="post">
                   <fieldset class="feedback">
                         <legend>Contact Information to stay in touch or collaborate:</legend>
                       <label>
                           Name
-                          <input type="text" name="name" placeholder="Full name" required>
+                          <input type="text" name="name" placeholder="Full name">
                       </label>
 
                       <label>
                           Email
-                          <input type="email" name="email" placeholder="Email address" required>
+                          <input type="email" name="email" placeholder="Email address">
                       </label>
-
-                      <label for="feedback">How is my page?</label>
-                      <input list="feedbacks" name="feedback" id="feedback">
-                      <datalist id="feedbacks">
-                          <option value="Well done!">
-                          <option value="Good">
-                          <option value="Average">
-                          <option value="Meh~~">
-                      </datalist>
 
                       <label>
                           Any feedback about my site would be greatly appreciated~~!
@@ -85,20 +84,23 @@
 
                   </fieldset>
 
-                  <input class="btn btn-contact" type="submit" name="submit" value="Submit">
+                 <button id = "confirm" class="btn btn-home">Submit</button>
+                 <p id="demo"></p>
 
 
                   <p>Thank you for spending your time visiting my page ^-^</p>
 
-              </form><!--
-
-
-              --><section class="column2">
+              </form><section class="column2">
                   
-                     <p class="info">Duy Anh Pham Nguyen (Anh Nguyen) <br /> Email: dan014@ucsd.edu <br><a href="https://www.linkedin.com/in/anhnguyen29/">LinkedIn</a> <br> (619) 321-7182 <br> Location: San Diego, CA <br />Willing to relocate~~~</p>
+                     <p class="info">Duy Anh Pham Nguyen (Anh Nguyen) <br />
+                        
+                         Email: dan014@ucsd.edu <br>
+                         <a href="https://www.linkedin.com/in/anhnguyen29/">LinkedIn</a> <br> 
+                         (619) 321-7182 <br> Location: San Diego, CA <br />
+                         Willing to relocate~~~</p>
 
 
-                  <img class="resume" src="images/resume.png" />
+                     <embed class="resume" src="images/Anh_Resume_SE.pdf" type="application/pdf" width="100%" height="600px" /> 
 
               </section>
 
@@ -107,7 +109,6 @@
 
       </section>
 
-      <!-- Footer -->
       <footer class="main-footer body-content same">
 
           <b>Contact: dan014@ucsd.edu</b>
@@ -131,6 +132,8 @@
           </nav>
 
       </footer>
-
+      
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/1.0.8/purify.js"></script>
   </body>
 </html>
